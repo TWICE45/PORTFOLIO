@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>TWICE: Portfolio Page</title>
+		<link rel="stylesheet" href="portfolio page styles.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+
+	<body>
+		<div class="container">
+			<div class="intro-section">
+				<img id="profile-picture" src="images/profile-picture.jpg"/>
+				<h1 id="my-name">Qhawe Dlamini</h1>
+				<h3>Freelance Web Developer</h3>
+				<p>“Talent hits a target no one else can hit. Genius hits a target no one else can see.”</p>
+			</div>
+
+			<hr/>
+		
+			<div class="about-grid">
+				<div class="i-am">
+					<h3>I am:</h3>
+					<ul class="about-list">
+						<li class="about-list-item">A software engineer</li>
+						<li class="about-list-item">A writer/poet</li>
+						<li class="about-list-item">A foodie</li>
+					</ul>
+				</div>
+
+				<div class="i-like"> 
+					<h3>I like to:</h3>
+					<ul class="about-list">
+						<li class="about-list-item">Code</li>
+						<li class="about-list-item">Write</li>
+						<li class="about-list-item">Lift weights</li>
+					</ul>
+				</div>
+			</div>
+
+			<hr/>
+
+			<div>
+				<h3 class="projects-header">My Projects</h3>
+				<div class="image-grid">
+					<div class="project-image-wrapper">
+						<img class="image-item" src="images/project-1.jpg"/>
+						<h4>Project 1</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="image-item" src="images/project-2.jpg"/>
+						<h4>Project 2</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="image-item" src="images/project-3.jpg"/>
+						<h4>Project 3</h4>
+					</div>
+					<div class="project-image-wrapper">
+						<img class="image-item" src="images/project-4.jpg"/>
+						<h4>Project 4</h4>
+					</div>
+			</div>
+
+			<hr/>
+
+			<div class="links-and-form">
+				<div class="links-box">
+					<h3>Links</h3>
+					<ul class="links-list">
+						<li>
+							<a href="http://facebook.com/<user>">Facebook</a>
+						</li>
+						<li>
+							<a href="http://instagram.com/<user>">Instagram</a>
+						</li>
+						<li>
+							<a href="http://twitter.com/<user>">Twitter</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="form-grid">
+					<form action="#">
+						<div class="email-box">
+							<label for="email">
+							<h4>Email</h4>
+							<input id="email" placeholder="Enter your email">
+							</label>
+						</div>
+						<div class="message-box">	
+							<label for="message">
+							<h4>Message</h4>
+							<textarea id="message" required placeholder="Your message"></textarea>
+							</label>
+							<div id="submit-button-wrapper">
+								<input type="submit" value="Send Message">
+							</div>
+						</div>	
+					</form>
+				</div>
+			</div>	
+		</div>	
+		<script src="script.js"></script>
+		<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+	</body>
+</html>
